@@ -1,5 +1,5 @@
 # scRNAseq-Pseudobulk-Analysis
-The scRNA-seq data used in this analysis is sourced from [1] and is available for download [here](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174188).
+Pseudobulk samples are created by aggregating or summing the read counts from a group of cells from the same individual for each cell type. This approach is important to avoid treating each cell as an independent sample in scRNA-seq analysis, which can lead to underestimated variance, small p-values, and an increased risk of false positives in statistical tests. The scRNA-seq data used in this analysis is sourced from [1] and is available for download [here](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174188).
 
 ## Usage
 1. Create an environment with all packages listed in ```requirements.txt``` installed.
