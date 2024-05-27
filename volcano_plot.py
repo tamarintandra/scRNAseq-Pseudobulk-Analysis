@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-result_df = pd.read_csv('B_pseudobulk_result.tsv', sep='\t')
+result_df = pd.read_csv('b_pseudobulk_result.tsv', sep='\t')
 logfc_cutoff = 0
 p_value_cutoff = 0.1
 label_logfc_threshold = 2 # Only label genes with logFC >= 2
