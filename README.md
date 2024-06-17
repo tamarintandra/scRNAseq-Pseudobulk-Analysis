@@ -9,7 +9,7 @@ The scRNA-seq data used in this analysis is sourced from [1] and is available fo
 3. Run all the cells in the notebook to observe.
 
 ## Volcano Plots
-To generate volcano plots, you first need to obtain the TSV result file from **pseudobulk_diff_analysis.ipynb** and modify lines 5 and 60 in **volcano_plot.py** according to the corresponding cell type. The usage of the script is:
+To generate volcano plots, you first need to obtain the TSV result file from **pseudobulk_diff_analysis.ipynb** and modify lines 5 and 60 in **volcano_plot.py** with the correct input path and cell type. The usage of the script is:
 
 ```
 python volcano_plot.py
